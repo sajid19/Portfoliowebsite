@@ -14,7 +14,7 @@ function pageTransition() {
                 currentbtn.classList.remove("active-btn");
             
             }
-            this.classList += "active-btn";
+            this.classList += " active-btn";
             
             // currentbtn[0].className = currentbtn[0].className.replace("active-btn"," ");
             // this.className += "active-btn";
