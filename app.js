@@ -9,30 +9,40 @@ function pageTransition() {
     // Button active class
     for(let i = 0; i< controlButton.length; i++){
         controlButton[i].addEventListener("click",function() {
-            let currentbtn = document.querySelectorAll(".active-btn");
-            currentbtn[0].className = currentbtn[0].className.replace("active-btn"," ");
-            this.className += "active-btn";
+            let currentbtn = document.querySelector(".active-btn");
+            if(currentbtn !== null){
+                currentbtn.classList.remove("active-btn");
             
-        })
+            }
+            this.classList += "active-btn";
+            
+            // currentbtn[0].className = currentbtn[0].className.replace("active-btn"," ");
+            // this.className += "active-btn";
+            
+        });
     }
+
+
     // section active class
     bodyMain.addEventListener("click", (e)=> {
         const id = e.target.dataset.id ;
         if (id){
-            controlsbtn.forEach( (btn)=> {
+            controlsbtn.forEach( function(btn) {
                 btn.classList.remove("active")
                 
-            })
+            });
             e.target.classList.add("active")
-            sections.forEach((section)=> {
+
+            sections.forEach(function(section) {
                 section.classList.remove("active")
                 
-            })
+            });
             const element = document.getElementById(id);
             element.classList.add("active");
 
         }
         
-    })
+    });
 }
-pageTransition();
+
+ pageTransition();
