@@ -308,3 +308,66 @@ span{
   background-color: var(--color-red);
   width: 55%;
 }
+.css{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  transition: all .4s ease-in-out;
+  background-color: var(--color-red);
+  width: 55%;
+}
+.js{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  transition: all .4s ease-in-out;
+  background-color: var(--color-red);
+  width: 55%;
+}
+.nodejs{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  transition: all .4s ease-in-out;
+  background-color: var(--color-red);
+  width: 55%;
+}
+.reactjs{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  transition: all .4s ease-in-out;
+  background-color: var(--color-red);
+  width: 55%;
+}
+.python{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  transition: all .4s ease-in-out;
+  background-color: var(--color-red);
+  width: 55%;
+}
+.ml{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  transition: all .4s ease-in-out;
+  background-color: var(--color-red);
+  width: 55%;
+}
+.git{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  transition: all .4s ease-in-out;
+  background-color: var(--color-red);
+  width: 55%;
+}
