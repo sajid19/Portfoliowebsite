@@ -299,6 +299,15 @@ span{
   margin-left: 1rem;
   position: relative;
 }
+.stat-title{
+  position: relative;
+  font-size: 2.5rem;
+  color: #27AE60;
+  text-align: center;
+}
+.infome{
+  font-size: 2.5rem;
+}
 .html{
   position: absolute;
   top: 0%;
