@@ -381,3 +381,22 @@ span{
   background-color: var(--color-red);
   width: 55%;
 }
+
+/* Portfolio */
+.port-text{
+  padding: 2rem 0;
+  text-align: center;
+}
+.portfolios{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin: 3rem;
+}
+.portfolio-item{
+  position: relative;
+  
+}
+.portimg{
+  
+}
