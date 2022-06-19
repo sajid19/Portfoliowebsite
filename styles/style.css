@@ -390,17 +390,19 @@ span{
 .portfolios{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   margin: 3rem;
+  margin-right:  3rem;
 }
 .portfolio-item{
   position: relative;
-  
+  align-items: center;
+  right: 200px;
 }
 .portimg{
    width: 600px;
    height: 400px;
-    object-fit: cover;
+  
    
   
 }
