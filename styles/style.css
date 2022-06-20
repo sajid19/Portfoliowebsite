@@ -86,7 +86,7 @@ section {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  background-color: #2766ae;
+  
 }
 
 .active {
@@ -463,3 +463,31 @@ span{
   transform: scale(1);
 }
 
+/* contact */
+.contact-contain-container{
+  display: flex;
+  padding-top: 3.5rem;
+}
+.right-contact{
+  flex: 2;
+}
+.left-contact{
+  flex: 3;
+  margin-left: 3rem;
+}
+.input-controls{
+  margin: 1.5rem 0;
+}
+.contact-contain-container .left-contact .input-controls input , textarea{
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: .8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color: var(--color-grey-5);
+  width: 100%;
+  color: var(--color-white);
+  resize: none;
+}
